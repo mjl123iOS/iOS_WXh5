@@ -15,6 +15,11 @@
 		0128EFAC20044DD500429F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128EFAB20044DD500429F4E /* main.m */; };
 		0128EFB620044DD500429F4E /* TestPayWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128EFB520044DD500429F4E /* TestPayWebTests.m */; };
 		0128EFC120044DD500429F4E /* TestPayWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128EFC020044DD500429F4E /* TestPayWebUITests.m */; };
+		0128EFD02004502F00429F4E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128EFCF2004502F00429F4E /* JavaScriptCore.framework */; };
+		012EE59C206250EC0035043D /* WXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012EE59A206250EC0035043D /* WXWebViewController.m */; };
+		012EE59D206250EC0035043D /* WXWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012EE59B206250EC0035043D /* WXWebViewController.xib */; };
+		012EE5A0206251020035043D /* WXWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012EE59F206251020035043D /* WXWKWebViewController.m */; };
+		01634C68200CB3C400C1FED0 /* WebChatPayH5VIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 01634C67200CB3C400C1FED0 /* WebChatPayH5VIew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		0128EFBC20044DD500429F4E /* TestPayWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPayWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0128EFC020044DD500429F4E /* TestPayWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPayWebUITests.m; sourceTree = "<group>"; };
 		0128EFC220044DD500429F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0128EFCF2004502F00429F4E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		012EE599206250EC0035043D /* WXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWebViewController.h; sourceTree = "<group>"; };
+		012EE59A206250EC0035043D /* WXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWebViewController.m; sourceTree = "<group>"; };
+		012EE59B206250EC0035043D /* WXWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WXWebViewController.xib; sourceTree = "<group>"; };
+		012EE59E206251020035043D /* WXWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWKWebViewController.h; sourceTree = "<group>"; };
+		012EE59F206251020035043D /* WXWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWKWebViewController.m; sourceTree = "<group>"; };
+		01634C66200CB3C400C1FED0 /* WebChatPayH5VIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebChatPayH5VIew.h; sourceTree = "<group>"; };
+		01634C67200CB3C400C1FED0 /* WebChatPayH5VIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebChatPayH5VIew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0128EFD02004502F00429F4E /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,7 @@
 				0128EFB420044DD500429F4E /* TestPayWebTests */,
 				0128EFBF20044DD500429F4E /* TestPayWebUITests */,
 				0128EF9A20044DD500429F4E /* Products */,
+				0128EFCE2004502F00429F4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +116,17 @@
 		0128EF9B20044DD500429F4E /* TestPayWeb */ = {
 			isa = PBXGroup;
 			children = (
+				01634C66200CB3C400C1FED0 /* WebChatPayH5VIew.h */,
+				01634C67200CB3C400C1FED0 /* WebChatPayH5VIew.m */,
 				0128EF9C20044DD500429F4E /* AppDelegate.h */,
 				0128EF9D20044DD500429F4E /* AppDelegate.m */,
 				0128EF9F20044DD500429F4E /* ViewController.h */,
 				0128EFA020044DD500429F4E /* ViewController.m */,
+				012EE599206250EC0035043D /* WXWebViewController.h */,
+				012EE59A206250EC0035043D /* WXWebViewController.m */,
+				012EE59B206250EC0035043D /* WXWebViewController.xib */,
+				012EE59E206251020035043D /* WXWKWebViewController.h */,
+				012EE59F206251020035043D /* WXWKWebViewController.m */,
 				0128EFA220044DD500429F4E /* Main.storyboard */,
 				0128EFA520044DD500429F4E /* Assets.xcassets */,
 				0128EFA720044DD500429F4E /* LaunchScreen.storyboard */,
@@ -130,6 +152,14 @@
 				0128EFC220044DD500429F4E /* Info.plist */,
 			);
 			path = TestPayWebUITests;
+			sourceTree = "<group>";
+		};
+		0128EFCE2004502F00429F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0128EFCF2004502F00429F4E /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012EE59D206250EC0035043D /* WXWebViewController.xib in Resources */,
 				0128EFA920044DD500429F4E /* LaunchScreen.storyboard in Resources */,
 				0128EFA620044DD500429F4E /* Assets.xcassets in Resources */,
 				0128EFA420044DD500429F4E /* Main.storyboard in Resources */,
@@ -265,7 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012EE5A0206251020035043D /* WXWKWebViewController.m in Sources */,
 				0128EFA120044DD500429F4E /* ViewController.m in Sources */,
+				012EE59C206250EC0035043D /* WXWebViewController.m in Sources */,
+				01634C68200CB3C400C1FED0 /* WebChatPayH5VIew.m in Sources */,
 				0128EFAC20044DD500429F4E /* main.m in Sources */,
 				0128EF9E20044DD500429F4E /* AppDelegate.m in Sources */,
 			);
