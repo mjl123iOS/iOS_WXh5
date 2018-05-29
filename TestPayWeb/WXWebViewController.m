@@ -25,7 +25,7 @@
     [self.view addSubview:self.myWebView];
     self.myWebView.delegate = self;
     //加载h5链接
-    [self.myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@""]]];
+    [self.myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"xxxxxx"]]];
 }
 
 #pragma mark - UIWebViewDelegate

@@ -69,7 +69,7 @@
                 NSURL *url = [request URL];
                 NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
                 //设置授权域名
-                [request setValue:@"www.aglhz.com://" forHTTPHeaderField: @"Referer"];
+                [request setValue:@"www.xxx.com://" forHTTPHeaderField: @"Referer"];
                 [self.myWebView loadRequest:request];
             });
         });

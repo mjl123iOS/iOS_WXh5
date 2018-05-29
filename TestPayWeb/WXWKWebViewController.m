@@ -26,7 +26,7 @@
     self.myWebView.navigationDelegate = self;
     [self.view addSubview:self.myWebView];
     //加载h5链接
-    NSURL *url = [NSURL URLWithString:@""];
+    NSURL *url = [NSURL URLWithString:@"xxxxxx"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.myWebView loadRequest:request];
 }
@@ -44,6 +44,8 @@
         [h5View loadingURL:url withIsWebChatURL:NO];
         [self.view addSubview:h5View];
       decisionHandler(WKNavigationActionPolicyCancel);
+    } else {
+        decisionHandler(WKNavigationActionPolicyAllow);
     }
     
 }
